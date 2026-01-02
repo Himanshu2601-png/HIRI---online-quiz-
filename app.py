@@ -1,5 +1,4 @@
-import openai
-openai.api_key = "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"
+
 
 from ai_feedback import get_ai_feedback
 
@@ -157,3 +156,4 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
